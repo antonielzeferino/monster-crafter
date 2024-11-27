@@ -7,6 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url('./images/background.png');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -45,7 +46,7 @@ h1 {
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  padding: 20px;  
+  padding: 20px;
   border-radius: 10px;
   gap: 20px;
 }
@@ -62,7 +63,7 @@ h1 {
   background: #1f1f1f63;
 }
 
-.form-container h3{ 
+.form-container h3 {
   font-size: 30px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -99,6 +100,7 @@ h1 {
   margin-top: 20px;
   text-align: center;
 }
+
 .progress-bar-inner {
   min-width: 200px;
   text-align: center;
@@ -121,7 +123,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;  
+  width: 100%;
   margin: 20px;
 }
 
@@ -132,16 +134,16 @@ h1 {
 }
 
 figcaption {
-  font-family: 'IM Fell DW Pica', serif; 
-  color: #ffeb3b; 
-  background-color: rgba(0, 0, 0, 0.7); 
+  font-family: 'IM Fell DW Pica', serif;
+  color: #ffeb3b;
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
-  margin-top: 15px; 
+  margin-top: 15px;
   font-size: 1.1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
-  border-radius: 8px; 
-  width: 90%; 
-  text-align: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  width: 90%;
+  text-align: center;
 }
 
 
@@ -169,7 +171,7 @@ figcaption {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2rem;  
+    font-size: 2rem;
   }
 
   .form-container input,
@@ -188,9 +190,9 @@ figcaption {
   }
 
 
-.form-container h3{ 
-  font-size: 20px; 
-}
+  .form-container h3 {
+    font-size: 20px;
+  }
 
   .form-container input,
   .form-container button {
