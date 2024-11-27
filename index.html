@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio do Monstro</title>
+  <meta name="description" content="Crie e desafie seu monstro com habilidades especiais em um jogo interativo. Customize seu monstro, veja o progresso e entre no mundo dos desafios épicos!">
+  <meta name="keywords" content="monstro, RPG, desafio, habilidades especiais, criar monstro, jogo interativo, customização de monstro, dragão, jogo de fantasia, progresso de monstro, jogo de aventura, fantasia, desafio épico">
+  <meta name="author" content="Antoniel Zeferino, Desenvolvedor Web - www.gihub.com/anotnielzeferino">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Desafio do Monstro</h1>
+  <main>
+    <p class="intro-text">crie um monstro para derrotar o dragão maligno, o quando mais criativo vocẽ for mais forte ele será</p>
+    <div class="container">
+      <div class="form-container">
+        <h3>Crie Seu Monstro</h3>
+        <input type="text" id="monsterName" placeholder="Nome do Monstro" required>
+        <input type="text" id="monsterType" placeholder="Tipo do Monstro" required>
+        <input type="text" id="monsterSkill" placeholder="Habilidade Especial" required>
+        <button onclick="createMonster()">Criar Monstro e Desafiar</button>
+        <div class="result" id="result"></div>
+      </div>
+      <figure class="image-container">
+        <img src="./images/dragon.png" alt="Dragão" id="dragonImage">
+        <figcaption>Dragão nível 87</figcaption>
+        <div class="progress-bar">
+          <div class="progress-bar-inner" id="progressBar"></div>
+        </div>
+      </figure>
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
